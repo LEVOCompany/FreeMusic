@@ -1,83 +1,83 @@
-# 🎧 Spotify Clone
+# FreeMusic - 🎧 Spotify Clone Features
 
-Progetto **didattico** che replica le funzionalità base di Spotify. Lo sviluppiamo come un vero team di prodotto per fare pratica con **Git/GitHub** e applicare le regole del corso fullstack.
+This is an educational project that replicates Spotify's core functionality. We're developing it as a real product team to practice using Git/GitHub and apply the full-stack course rules.
 
-> ⚠️ Progetto a scopo esclusivamente formativo. Non è affiliato a Spotify AB. Usiamo solo brani liberi da diritti.
+> ⚠️ This project is for educational purposes only. It is not affiliated with Spotify AB. We only use royalty-free music.
 
-## 🎯 Obiettivi
+## 🎯 Objectives
 
-- Imparare a lavorare in team con Git, branch, Pull Request e code review
-- Applicare un flusso di sviluppo realistico (Issue → branch → PR → merge)
-- Costruire un'applicazione fullstack completa
+- Learn to work as a team with Git, branches, pull requests, and code reviews
+- Apply a realistic development flow (Issue → branch → PR → merge)
+- Build a complete full-stack application
 
-## 🧰 Stack tecnologico
+## 🧰 Technology Stack
 
-| Livello   | Tecnologia            |
+| Layer | Technology |
 |-----------|-----------------------|
-| Frontend  | HTML, CSS (+ JavaScript) |
-| Backend   | Java                  |
-| Database  | MySQL                 |
-| Versioning| Git + GitHub          |
+| Frontend | HTML, CSS (+ JavaScript) |
+| Backend | Java |
+| Database | MySQL |
+| Versioning| Git + GitHub |
 
-## 📁 Struttura del repository
+## 📁 Repository Structure
 
 ```
 spotify-clone/
-├── frontend/     # pagine HTML, CSS e script
-├── backend/      # applicazione Java (API)
-├── database/     # schema.sql e dati di esempio
-├── docs/         # documentazione, mockup, diagrammi
+├── frontend/ # HTML pages, CSS, and scripts
+├── backend/ # Java application (API)
+├── database/ # schema.sql and sample data
+├── docs/ # documentation, mockups, diagrams
 ├── README.md
 └── CONTRIBUTING.md
 ```
 
-## ✨ Funzionalità (MVP)
+## ✨ Features (MVP)
 
-- [ ] Registrazione e login utente
-- [ ] Catalogo brani, artisti e album
-- [ ] Player audio (play, pausa, avanti, indietro)
-- [ ] Creazione e gestione playlist
-- [ ] Ricerca di brani, artisti e album
+- [ ] User Registration and Login
+- [ ] Song, Artist, and Album Catalog
+- [ ] Audio Player (Play, Pause, Forward, Backward)
+- [ ] Playlist Creation and Management
+- [ ] Search for Songs, Artists, and Albums
 
-## 🚀 Come avviare il progetto
+## 🚀 How to Start the Project
 
-### Prerequisiti
+### Prerequisites
 
-- JDK 17 o superiore
+- JDK 17 or higher
 - MySQL 8
 - Git
-- Un editor di codice (VS Code, IntelliJ, ecc.)
+- A code editor (VS Code, IntelliJ, etc.)
 
 ### Setup
 
 ```bash
-# 1. Clona il repository
-git clone https://github.com/<organizzazione>/spotify-clone.git
+# 1. Clone the repository
+git clone https://github.com/<organization>/spotify-clone.git
 cd spotify-clone
 
-# 2. Crea il database
+# 2. Create the database
 mysql -u root -p < database/schema.sql
 
-# 3. Configura le credenziali del database nel backend
-#    (vedi backend/ e non committare mai password!)
+# 3. Configure the database credentials in the backend
+# (see backend/ and never commit passwords!)
 
-# 4. Avvia il backend e apri frontend/index.html
+# 4. Start the backend and open frontend/index.html
 ```
 
-## 👥 Team e ruoli
+## 👥 Teams and Roles
 
-| Membro | Ruolo |
+| Member | Role |
 |--------|-------|
-| _Nome 1_ | Product Owner |
-| _Nome 2_ | Backend |
-| _Nome 3_ | Frontend |
+| Ernesto Vinasco | Product Owner |
+| _Name 2_ | Backend |
+| _Name 3_ | Frontend |
 
-I ruoli ruotano a ogni sprint per permettere a tutti di provare ogni area.
+Roles rotate each sprint to allow everyone to test each area.
 
-## 🤝 Come contribuire
+## 🤝 How to Contribute
 
-Leggi [CONTRIBUTING.md](CONTRIBUTING.md) prima di aprire la tua prima Pull Request.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting your first Pull Request.
 
-## 📄 Licenza
+## 📄 License
 
-Distribuito con licenza MIT. Vedi il file `LICENSE`.
+Distributed under the MIT License. See the `LICENSE' file`.
