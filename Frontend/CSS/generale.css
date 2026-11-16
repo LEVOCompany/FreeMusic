@@ -1,0 +1,14 @@
+/*
+capire come organizzare i fil css:
+    - per componenti
+    - per pag(brani, album, artisti, ricerca)
+    - per funzionalità
+
+    reset
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
